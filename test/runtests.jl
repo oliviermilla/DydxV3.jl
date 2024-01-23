@@ -1,6 +1,8 @@
-using DydxV3
 using Test
+using DydxV3
 
-@testset "DydxV3.jl" begin
-    # Write your tests here.
-end
+include("test_samplers.jl")
+include("test_public.jl")
+include("Private/test_api.jl")
+include("test_private.jl")
+include("test_websockets.jl")

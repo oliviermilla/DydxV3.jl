@@ -1,0 +1,8 @@
+[DydxV3]
+apiKey = "YourKey"
+apiPassPhrase = "Your Passphrase"
+apiSecret = "Your Secret"
+starkPrivateKey = "Your PrivateKey"
+starkPublicKey = "Your PublicKey"
+starkPublicKeyYCoordinate = "Your Public Key Coordinate"
+walletAddress = "Your 0xAddress"
