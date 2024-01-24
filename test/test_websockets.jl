@@ -22,7 +22,7 @@
 
     i = 1
     DydxV3.WebSockets.subscribeToTrades("BTC-USD", client) do cli, obj
-        println(obj)
+        #println(obj)
         @test isa(obj, DydxV3.WebSockets.TradeWrapper)
         i == 2 && close(cli) # Test subscribed and channel_data before closing
         i += 1
